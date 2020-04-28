@@ -562,11 +562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikol\\source\\repos\\Api-Gateway\\Api-Gateway\\Api-Gateway.csproj",
+      "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\Api-Gateway\\Api-Gateway\\Api-Gateway.csproj",
       "projectName": "Api-Gateway",
-      "projectPath": "C:\\Users\\nikol\\source\\repos\\Api-Gateway\\Api-Gateway\\Api-Gateway.csproj",
+      "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\Api-Gateway\\Api-Gateway\\Api-Gateway.csproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikol\\source\\repos\\Api-Gateway\\Api-Gateway\\obj\\",
+      "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\Api-Gateway\\Api-Gateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
