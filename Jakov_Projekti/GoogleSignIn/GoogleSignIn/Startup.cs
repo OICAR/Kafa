@@ -34,8 +34,8 @@ namespace GoogleSignIn
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddAuthentication().AddGoogle(googleOptions =>
             {
-                googleOptions.ClientId = Configuration["Authentication:Google:ClientId"];
-                googleOptions.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
+                googleOptions.ClientId = "551263108067 - bkvrddf0uom9j5nc85lfqq1ptufajfg9.apps.googleusercontent.com";
+                googleOptions.ClientSecret = "gJc--H8_B4daWp8LHUQYpF7e";
             });
             services.AddControllersWithViews();
             services.AddRazorPages();

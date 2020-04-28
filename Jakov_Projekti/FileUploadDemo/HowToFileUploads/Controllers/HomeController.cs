@@ -19,6 +19,7 @@ namespace HowToFileUploads.Controllers
         private Jelovnik jelovnik = new Jelovnik();
 
 
+
         public HomeController(IWebHostEnvironment env)
         {
             _env = env;
@@ -34,7 +35,7 @@ namespace HowToFileUploads.Controllers
                 file.CopyTo(fileStream);
             }
 
-            parseXML();
+            parseXML(file);
 
             //Generiranje QR koda
             QRCodeGenerator qrGenerator = new QRCodeGenerator();
@@ -49,12 +50,18 @@ namespace HowToFileUploads.Controllers
             //return RedirectToAction("Index");
         }
 
-        private void parseXML()
+        private void parseXML(IFormFile file)
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load("in.xml");
+            doc.Load(file.FileName);
+
+
+
 
             XmlNodeList nodes = doc.DocumentElement.SelectNodes("/jelovnik/obrok");
+
+            var enumerator = nodes.GetEnumerator();
+
             jelovnik.Obroci = new List<Obrok>();
             foreach (XmlNode node in nodes)
             {

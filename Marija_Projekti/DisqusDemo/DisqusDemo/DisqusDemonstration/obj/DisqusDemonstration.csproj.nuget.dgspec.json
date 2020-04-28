@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\radiator\\Desktop\\oicar\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\DisqusDemonstration.csproj": {}
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\DisqusDemonstration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\radiator\\Desktop\\oicar\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\DisqusDemonstration.csproj": {
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\DisqusDemonstration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radiator\\Desktop\\oicar\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\DisqusDemonstration.csproj",
+        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\DisqusDemonstration.csproj",
         "projectName": "DisqusDemonstration",
-        "projectPath": "C:\\Users\\radiator\\Desktop\\oicar\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\DisqusDemonstration.csproj",
-        "packagesPath": "C:\\Users\\radiator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radiator\\Desktop\\oicar\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\obj\\",
+        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\DisqusDemonstration.csproj",
+        "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Marija_Projekti\\DisqusDemo\\DisqusDemo\\DisqusDemonstration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\radiator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -66,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
