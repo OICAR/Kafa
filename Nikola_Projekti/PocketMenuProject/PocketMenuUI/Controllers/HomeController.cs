@@ -24,7 +24,7 @@ namespace PocketMenuUI.Controllers
             _logger = logger;
         }
 
-        string Baseurl = "http://localhost:5000/";
+        string Baseurl = "https://api-gateway20200429072611.azurewebsites.net";
         public async Task<ActionResult> Index()
         {
 

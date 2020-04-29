@@ -26,6 +26,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://api-gateway20200429072611.azurewebsites.net"
+    "BaseUrl": "http://localhost:5000"
   }
 }

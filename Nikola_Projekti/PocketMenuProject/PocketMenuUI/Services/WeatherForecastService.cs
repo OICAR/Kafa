@@ -22,7 +22,7 @@ namespace PocketMenuUI.Services
         public WeatherForecastService(HttpClient httpClient,IOptions<AppSettings> settings )
         {
             _apiClient = httpClient;
-            _forecastUrl = "http://localhost:5000";
+            _forecastUrl = "https://api-gateway20200429072611.azurewebsites.net";
         }
 
 
