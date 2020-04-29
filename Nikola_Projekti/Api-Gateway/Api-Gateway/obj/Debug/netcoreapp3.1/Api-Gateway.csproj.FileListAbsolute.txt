@@ -45,7 +45,6 @@ C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\bin\De
 C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\bin\Debug\netcoreapp3.1\Ocelot.dll
-C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\obj\Debug\netcoreapp3.1\Api-Gateway.csprojAssemblyReference.cache
 C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\obj\Debug\netcoreapp3.1\staticwebassets\Api-Gateway.StaticWebAssets.Manifest.cache
 C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\obj\Debug\netcoreapp3.1\staticwebassets\Api-Gateway.StaticWebAssets.xml
 C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\obj\Debug\netcoreapp3.1\Api-Gateway.MvcApplicationPartsAssemblyInfo.cs
@@ -56,3 +55,4 @@ C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\obj\De
 C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\obj\Debug\netcoreapp3.1\Api-Gateway.csproj.CopyComplete
 C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\obj\Debug\netcoreapp3.1\Api-Gateway.dll
 C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\obj\Debug\netcoreapp3.1\Api-Gateway.pdb
+C:\Users\nikol\Desktop\OICAR\Kafa\Nikola_Projekti\Api-Gateway\Api-Gateway\obj\Debug\netcoreapp3.1\Api-Gateway.csprojAssemblyReference.cache

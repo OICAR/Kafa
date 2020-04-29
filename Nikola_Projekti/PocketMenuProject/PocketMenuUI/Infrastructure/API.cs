@@ -8,6 +8,9 @@ namespace PocketMenuUI.Infrastructure
     public static class API
     {
 
+        private static string BaseURL = "https://api-gateway20200429072611.azurewebsites.net";
+
+
         public static class Forecast
         {
             public static string GetWeatherForecast(string baseUri) => $"{baseUri}/api/weatherforecast";

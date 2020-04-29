@@ -32,6 +32,7 @@ namespace Api_Gateway
            .ConfigureServices(s => {
                s.AddOcelot();
            })
+           
            .ConfigureLogging((hostingContext, logging) =>
            {
                    //add your logging

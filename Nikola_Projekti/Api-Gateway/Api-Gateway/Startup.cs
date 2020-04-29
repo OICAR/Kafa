@@ -25,16 +25,38 @@ namespace Api_Gateway
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.Use(SayHelloWorldMiddleware);
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapControllers();
             });
         }
+
+        private RequestDelegate SayHelloWorldMiddleware(RequestDelegate next)
+        {
+            return async ctx =>
+            {
+
+                if (ctx.Request.Path.StartsWithSegments(""))
+                {
+                    await ctx.Response.WriteAsync("Hello, World");
+                }
+
+
+                else
+                {
+                    await next(ctx);
+                    //if (ctx.Response.StatusCode==200)
+                    //{
+
+                    //}
+
+                }
+
+            };
+        }
+
     }
 }
