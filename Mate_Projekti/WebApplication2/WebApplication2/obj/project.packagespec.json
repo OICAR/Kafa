@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\koweratus\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+    "projectUniqueName": "C:\\Users\\koweratus\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
     "projectName": "WebApplication2",
-    "projectPath": "C:\\Users\\koweratus\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
-    "outputPath": "C:\\Users\\koweratus\\source\\repos\\WebApplication2\\WebApplication2\\obj\\",
+    "projectPath": "C:\\Users\\koweratus\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+    "outputPath": "C:\\Users\\koweratus\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.0"

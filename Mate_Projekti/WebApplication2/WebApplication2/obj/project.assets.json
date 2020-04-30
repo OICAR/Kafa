@@ -8510,11 +8510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koweratus\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "C:\\Users\\koweratus\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\koweratus\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectPath": "C:\\Users\\koweratus\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
       "packagesPath": "C:\\Users\\koweratus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\koweratus\\source\\repos\\WebApplication2\\WebApplication2\\obj\\",
+      "outputPath": "C:\\Users\\koweratus\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koweratus\\AppData\\Roaming\\NuGet\\NuGet.Config",

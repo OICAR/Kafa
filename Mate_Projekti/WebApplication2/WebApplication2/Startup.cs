@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using WebApplication2.Data.Services;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using WebApplication2.Data.Migrations;
+using WebApplication2.Models;
 
 namespace WebApplication2
 {
@@ -30,6 +31,8 @@ namespace WebApplication2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<Google_mapsContext>
+            (options=>options.UseSqlServer(Configuration.GetConnectionString("google"))); 
             services.AddDbContext<SchoolContext>(options =>
            options.UseSqlServer(Configuration.GetConnectionString("cs")));
             services.AddDbContext<ApplicationDbContext>(options =>
@@ -42,7 +45,11 @@ namespace WebApplication2
             // requires
             // using Microsoft.AspNetCore.Identity.UI.Services;
             // using WebPWrecover.Services;
+          
             services.AddTransient<IEmailSender, EmailSender>();
+            services
+                .AddTransient<IGoogleMapsRepository,
+                    SQLGoogleMapsRepository>();
             services.Configure<AuthMessageSenderOptions>(Configuration);
 
             services.AddRazorPages();
