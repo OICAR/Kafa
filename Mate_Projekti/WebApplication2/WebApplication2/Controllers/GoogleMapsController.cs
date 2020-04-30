@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication2.Models;
 using WebApplication2.ViewModels;
 
@@ -12,10 +6,12 @@ namespace WebApplication2.Controllers
 {
     public class GoogleMapsController : Controller
     {
-        private readonly IGoogleMapsRepository _googleMapsRepository;
+        private readonly IGoogleMapsRepository
+            _googleMapsRepository;
         //private readonly Google_mapsContext _context;
 
-        public GoogleMapsController(IGoogleMapsRepository googleMapsRepository)
+        public GoogleMapsController(
+            IGoogleMapsRepository googleMapsRepository)
         {
             _googleMapsRepository = googleMapsRepository;
         }
@@ -25,32 +21,34 @@ namespace WebApplication2.Controllers
         {
             return View();
         }
+
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Create
-        (GoogleMapsCreateViewModel model)
+            (GoogleMapsCreateViewModel model)
         {
             if (ModelState.IsValid)
             {
-                GoogleMap newEmployee = new GoogleMap()
+                var newEmployee = new GoogleMap
                 {
                     Address = model.Address,
                     Lat = model.Lat,
                     Long = model.Long
-                  
                 };
                 _googleMapsRepository.Add(newEmployee);
 
-                return RedirectToAction("Index","GoogleMaps");
+                return RedirectToAction("Index",
+                    "GoogleMaps");
             }
 
             return View();
         }
-        
+
 /*        // GET: GoogleMaps/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -178,9 +176,11 @@ namespace WebApplication2.Controllers
 
         public JsonResult GetAllLocation()
         {
-            var data =  _googleMapsRepository.GetAllLocations();
+            var data =
+                _googleMapsRepository.GetAllLocations();
             return Json(data);
         }
-
     }
+
+    
 }

@@ -8,45 +8,43 @@
         <button type="submit" class="btn 
                 btn-info btn-block">Submit</button>
     </form>
-    <form  asp-action="Create"
+    <form asp-action="Create"
           asp-controller="GoogleMaps" method="post">
-        <input type="text" id="location-input"  
-        placeholder="Please insert your address or point of interest..."
+        <input type="text" id="location-input"
+               placeholder="Please insert your address or point of interest..."
                class="form-control form-control-lg">
-      
-     
-                <div class="form-group row">
-                    <div class="col-sm-10">
-                        <label asp-for="Address" class="col-sm-2 
+
+
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <label asp-for="Address" class="col-sm-2 
                         col-form-label"></label>
-                    </div>
-                <input class="form-control" 
-                id="formatted-address" 
-                       asp-for="Address"/>
-                </div>
+            </div>
+            <input class="form-control"
+                   id="formatted-address"
+                   asp-for="Address"/>
+        </div>
         <div id="formatted-components"></div>
-        
+
         <div class="form-group row">
             <div class="col-sm-10">
                 <label asp-for="Lat" class="col-sm-2 
                 col-form-label"></label>
             </div>
-        <input class="form-control" id="latitude-output" 
-               asp-for="Lat"/>
+            <input class="form-control" id="latitude-output"
+                   asp-for="Lat"/>
         </div>
-                   <div class="form-group row">
-                        <div class="col-sm-10">
-                            <label asp-for="Long" class="col-sm-2 
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <label asp-for="Long" class="col-sm-2 
                             col-form-label"></label>
-                        </div>
-                 <input class="form-control" id="longitude-output" 
-                 asp-for="Long"/>
+            </div>
+            <input class="form-control" id="longitude-output"
+                   asp-for="Long"/>
         </div>
-     
-            
-        
-  
-          <button  class="btn 
+
+
+        <button class="btn 
                 btn-info btn-block">Confirm</button>
     </form>
 

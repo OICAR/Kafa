@@ -11,7 +11,7 @@
     ],
     "sources": {
       "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "https://api.nuget.org/v3/index.json": {}
+      "https://www.myget.org/F/aspnetvnext/api/v2/": {}
     },
     "frameworks": {
       "netcoreapp3.1": {

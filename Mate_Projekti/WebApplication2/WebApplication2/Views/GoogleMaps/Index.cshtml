@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Index";
 }
 
@@ -14,7 +13,7 @@
            zoom: 4,
            center: myLatLng
          });
-        $.get("@Url.Action("GetAllLocation","GoogleMaps")",
+        $.get("@Url.Action("GetAllLocation", "GoogleMaps")",
         function(data,status) {
           var marker = [];
            var contentString =[];
@@ -56,6 +55,3 @@
         }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQZjR53_GfS-tlqD5xV50sf8rKYB2C4S8&callback=initMap" async defer></script>
-
-
-

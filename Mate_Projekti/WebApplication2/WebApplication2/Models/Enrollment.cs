@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace WebApplication2.Models
+﻿namespace WebApplication2.Models
 {
     public enum Grade
     {
-        A, B, C, D, F
+        A,
+        B,
+        C,
+        D,
+        F
     }
 
     public class Enrollment
