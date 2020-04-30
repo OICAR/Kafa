@@ -1,3 +1,7 @@
 ﻿<StaticWebAssets Version="1.0">
+<<<<<<< HEAD
   <ContentRoot BasePath="/Identity" Path="C:\Users\koweratus\.nuget\packages\microsoft.aspnetcore.identity.ui\3.0.0\staticwebassets\V4" />
+=======
+  <ContentRoot BasePath="/Identity" Path="C:\Users\nikol\.nuget\packages\microsoft.aspnetcore.identity.ui\3.0.0\staticwebassets\V4" />
+>>>>>>> c812e920f27a5520bd65a5d15d09caa88bf0e803
 </StaticWebAssets>

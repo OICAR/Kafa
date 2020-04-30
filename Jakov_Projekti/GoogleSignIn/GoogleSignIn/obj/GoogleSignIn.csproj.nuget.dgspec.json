@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakov\\source\\repos\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj": {}
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakov\\source\\repos\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj": {
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakov\\source\\repos\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj",
+        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj",
         "projectName": "GoogleSignIn",
-        "projectPath": "C:\\Users\\jakov\\source\\repos\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj",
-        "packagesPath": "C:\\Users\\jakov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakov\\source\\repos\\GoogleSignIn\\GoogleSignIn\\obj\\",
+        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj",
+        "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jakov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -81,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

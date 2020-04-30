@@ -3,18 +3,6 @@
   <component name="ContentModelStore">
     <e p="C:\Users\koweratus\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\koweratus\.Rider2019.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_ajax.googleapis.com_ajax_libs_jquery_2.1.1_jquery.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_cdn.jsdelivr.net_gh_openlayers_openlayers.github.io@master_en_v6.3.1_build_ol.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_cdn.rawgit.com_openlayers_openlayers.github.io_master_en_v5.3.0_build_ol.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_cdnjs.cloudflare.com_ajax_libs_jquery_3.3.1_jquery.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_cdnjs.cloudflare.com_ajax_libs_openlayers_2.11_lib_OpenLayers.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_code.jquery.com_jquery-1.11.0.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_code.jquery.com_jquery-1.9.1.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_code.jquery.com_jquery-2.2.3.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_dev.openlayers.org_releases_OpenLayers-2.13.1_OpenLayers.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_openlayers.org_en_v4.6.5_build_ol.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_unpkg.com_axios_dist_axios.js" t="IncludeRecursive" />
-    <e p="C:\Users\koweratus\.Rider2019.2\config\javascript\extLibs\http_www.openlayers.org_api_OpenLayers.js" t="IncludeRecursive" />
     <e p="C:\Users\koweratus\.Rider2019.2\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\koweratus\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\koweratus\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WebApplication2.886294229.00" t="ExcludeRecursive" />
@@ -70,7 +58,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="WebApplication2.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
