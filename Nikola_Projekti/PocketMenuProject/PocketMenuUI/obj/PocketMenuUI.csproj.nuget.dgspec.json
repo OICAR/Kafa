@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {}
+    "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {
+    "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
+        "projectUniqueName": "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
         "projectName": "PocketMenuUI",
-        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
-        "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\obj\\",
+        "projectPath": "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
+        "packagesPath": "C:\\Users\\Jakov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Jakov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -72,7 +68,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.3, )"
             },
             "System.Net.Http": {
               "target": "Package",
@@ -97,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
