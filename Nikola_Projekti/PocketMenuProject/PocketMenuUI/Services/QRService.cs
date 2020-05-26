@@ -26,7 +26,7 @@ namespace PocketMenuUI.Services
         public QRService(HttpClient httpClient, IOptions<AppSettings> settings, ILogger<QRService> logger)
         {
             _httpClientFactory = httpClient;
-            _QRCodeGeneratorUrl = "http://localhost:5000";
+            _QRCodeGeneratorUrl = "https://api-gateway20200429072611.azurewebsites.net";
             _settings=settings;
             _logger = logger;
         }

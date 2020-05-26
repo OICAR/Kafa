@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {}
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
+        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
         "projectName": "PocketMenuUI",
-        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
+        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\obj\\",
+        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\PocketMenuProject\\PocketMenuUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\Services\\QRService\\QRService.csproj": {}
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\Services\\QRService\\QRService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\Services\\QRService\\QRService.csproj": {
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\Services\\QRService\\QRService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\Services\\QRService\\QRService.csproj",
+        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\Services\\QRService\\QRService.csproj",
         "projectName": "QRService",
-        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\Services\\QRService\\QRService.csproj",
+        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\Services\\QRService\\QRService.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Nikola_Projekti\\Services\\QRService\\obj\\",
+        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Kafa\\Nikola_Projekti\\Services\\QRService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
