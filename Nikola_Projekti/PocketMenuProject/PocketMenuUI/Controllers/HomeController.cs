@@ -25,7 +25,17 @@ namespace PocketMenuUI.Controllers
         }
 
         string Baseurl = "https://api-gateway20200429072611.azurewebsites.net";
-        public async Task<ActionResult> Index()
+
+        
+
+
+              public ActionResult SwaggerIndex()
+        {
+
+            return Redirect("https://dapperdatabaseapi20200527121926.azurewebsites.net");
+
+        }
+            public async  Task<ActionResult> Index()
         {
 
           
