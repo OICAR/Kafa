@@ -6775,11 +6775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Marija_Projekti\\DapperDemo\\DapperDemo\\CRUD-API\\DapperAPI.csproj",
+      "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Marija_Projekti\\DapperDemo\\DapperDemo\\CRUD-API\\DapperAPI.csproj",
       "projectName": "DapperAPI",
-      "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Marija_Projekti\\DapperDemo\\DapperDemo\\CRUD-API\\DapperAPI.csproj",
+      "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Marija_Projekti\\DapperDemo\\DapperDemo\\CRUD-API\\DapperAPI.csproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Marija_Projekti\\DapperDemo\\DapperDemo\\CRUD-API\\obj\\",
+      "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Marija_Projekti\\DapperDemo\\DapperDemo\\CRUD-API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
