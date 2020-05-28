@@ -8511,11 +8511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\obj\\",
+      "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

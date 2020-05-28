@@ -1,20 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
-using WebApplication2.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using WebApplication2.Data.Services;
-using Microsoft.AspNetCore.Identity.UI.Services;
+using WebApplication2.Data;
 using WebApplication2.Data.Migrations;
+using WebApplication2.Data.Services;
+using WebApplication2.Models;
 
 namespace WebApplication2
 {
@@ -28,28 +23,48 @@ namespace WebApplication2
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(
+            IServiceCollection services)
         {
+            services.AddDbContext<Google_mapsContext>
+            (options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString(
+                        "google")));
             services.AddDbContext<SchoolContext>(options =>
-           options.UseSqlServer(Configuration.GetConnectionString("cs")));
-            services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseSqlServer(
-            Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(
+                    Configuration
+                        .GetConnectionString("cs")));
+            services.AddDbContext<ApplicationDbContext>(
+                options =>
+                    options.UseSqlServer(
+                        Configuration.GetConnectionString(
+                            "DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(
-                          options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                    options =>
+                        options.SignIn
+                            .RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<
+                    ApplicationDbContext>();
 
             // requires
             // using Microsoft.AspNetCore.Identity.UI.Services;
             // using WebPWrecover.Services;
-            services.AddTransient<IEmailSender, EmailSender>();
-            services.Configure<AuthMessageSenderOptions>(Configuration);
+
+            services
+                .AddTransient<IEmailSender, EmailSender>();
+            services
+                .AddTransient<IGoogleMapsRepository,
+                    SQLGoogleMapsRepository>();
+            services.Configure<AuthMessageSenderOptions>(
+                Configuration);
 
             services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app,
+            IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -62,6 +77,7 @@ namespace WebApplication2
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -74,7 +90,8 @@ namespace WebApplication2
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern:
+                    "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

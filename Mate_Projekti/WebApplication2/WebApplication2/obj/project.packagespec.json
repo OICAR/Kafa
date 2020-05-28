@@ -1,20 +1,20 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\koweratus\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+    "projectUniqueName": "C:\\Users\\koweratus\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
     "projectName": "WebApplication2",
-    "projectPath": "C:\\Users\\koweratus\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
-    "outputPath": "C:\\Users\\koweratus\\source\\repos\\WebApplication2\\WebApplication2\\obj\\",
+    "projectPath": "C:\\Users\\koweratus\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+    "outputPath": "C:\\Users\\koweratus\\Desktop\\OICAR\\Kafa\\Mate_Projekti\\WebApplication2\\WebApplication2\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
-      "netcoreapp3.0"
+      "netcoreapp3.1"
     ],
     "sources": {
       "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "https://api.nuget.org/v3/index.json": {}
+      "https://www.myget.org/F/aspnetvnext/api/v2/": {}
     },
     "frameworks": {
-      "netcoreapp3.0": {
+      "netcoreapp3.1": {
         "projectReferences": {}
       }
     },
@@ -25,7 +25,7 @@
     }
   },
   "frameworks": {
-    "netcoreapp3.0": {
+    "netcoreapp3.1": {
       "dependencies": {
         "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
           "target": "Package",
