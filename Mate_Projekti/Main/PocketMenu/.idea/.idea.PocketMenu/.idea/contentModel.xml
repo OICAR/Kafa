@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\koweratus\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\koweratus\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\koweratus\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\koweratus\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\koweratus\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_PocketMenu.-843133086.00" t="ExcludeRecursive" />
+    <e p="C:\Users\koweratus\Desktop\OICAR\Kafa\Mate_Projekti\Api-Gateway\Api-Gateway" t="IncludeRecursive">
+      <e p="Api-Gateway.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="C:\Users\koweratus\Desktop\OICAR\Kafa\Mate_Projekti\Main\PocketMenu" t="IncludeFlat">
+      <e p="ApiGateway" t="Include" />
+      <e p="PocketMenu.sln" t="IncludeFlat" />
+      <e p="Services" t="Include" />
+      <e p="WebMVC" t="Include">
+        <e p="WebMVC" t="Include" />
+      </e>
+    </e>
+    <e p="C:\Users\koweratus\Desktop\OICAR\Kafa\Mate_Projekti\PocketMenuProject\PocketMenuUI" t="IncludeRecursive">
+      <e p="PocketMenuUI.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="C:\Users\koweratus\Desktop\OICAR\Kafa\Mate_Projekti\Services\QRService" t="IncludeRecursive">
+      <e p="QRService.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="C:\Users\koweratus\Desktop\OICAR\Kafa\Mate_Projekti\Services\Service01" t="IncludeRecursive">
+      <e p="Service01.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
