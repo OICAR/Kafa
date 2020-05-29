@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using PocketMenuUI.Data;
 using Microsoft.Extensions.Configuration;
@@ -39,6 +40,8 @@ namespace PocketMenuUI
                 googleOptions.ClientId = Configuration.GetValue<string>("web:client_id");
                 googleOptions.ClientSecret = Configuration.GetValue<string>("web:client_secret");
             });
+            services.AddTransient<IEmailSender, EmailSender>();
+            services.Configure<AuthMessageSenderOptions>(Configuration);
             services.AddControllersWithViews()
                 .Services
                 .AddHttpClientServices(Configuration);

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -115,10 +116,25 @@ namespace PocketMenuUI.Controllers
             return View(EmpInfo);
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        /*[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+  public IActionResult Error()
+  {
+      return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+  }*/
+        // [Route("Error/{statusCode}")]
+        [AllowAnonymous]
+        public IActionResult Error(int statusCode)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            switch (statusCode)
+            {
+                case 404:
+                    ViewBag.ErrorMessage =
+                        "Sorry, the resource you requested could not be found";
+                    break;
+            }
+
+            return View("Error");
+
         }
     }
 }
