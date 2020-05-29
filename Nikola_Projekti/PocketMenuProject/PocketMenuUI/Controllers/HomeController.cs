@@ -25,7 +25,6 @@ namespace PocketMenuUI.Controllers
         {
             _weatherSvc = watherForecastService;
             _logger = logger;
-            //_userManager = userManager;
         }
 
         string Baseurl = "https://api-gateway20200429072611.azurewebsites.net";
@@ -72,9 +71,6 @@ namespace PocketMenuUI.Controllers
 
             //}
 
-        
-
-            //ViewBag.userId = _userManager.GetUserId(HttpContext.User);
 
             EmpInfo = await _weatherSvc.GetForecast();
 
