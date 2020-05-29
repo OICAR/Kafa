@@ -100,6 +100,7 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="GoogleMapsController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="QRCodeController.cs" t="Include" />
@@ -141,6 +142,8 @@
         </e>
         <e p="ScaffoldingReadMe.txt" t="Include" />
         <e p="Services" t="Include">
+          <e p="AuthMessageSenderOptions.cs" t="Include" />
+          <e p="EmailSender.cs" t="Include" />
           <e p="IQRCodeGenerator.cs" t="Include" />
           <e p="IWatherForecast.cs" t="Include" />
           <e p="QRService.cs" t="Include" />
@@ -148,6 +151,7 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="ViewModel" t="Include">
+          <e p="ForgotPasswordViewModel.cs" t="Include" />
           <e p="QRDataCatering.cs" t="Include" />
           <e p="QRImage.cs" t="Include" />
         </e>
