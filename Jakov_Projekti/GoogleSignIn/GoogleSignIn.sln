@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSignIn", "GoogleSignIn\GoogleSignIn.csproj", "{23BF9842-DA8A-4908-A0AE-F074B3B82614}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23BF9842-DA8A-4908-A0AE-F074B3B82614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BF9842-DA8A-4908-A0AE-F074B3B82614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BF9842-DA8A-4908-A0AE-F074B3B82614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BF9842-DA8A-4908-A0AE-F074B3B82614}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D04DAA4-91F9-466A-A4BB-7655886F45A8}
+	EndGlobalSection
+EndGlobal
