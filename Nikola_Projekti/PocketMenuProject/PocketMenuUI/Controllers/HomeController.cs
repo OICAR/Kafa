@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -18,10 +19,13 @@ namespace PocketMenuUI.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private IWatherForecast _weatherSvc;
+       
+
         public HomeController(ILogger<HomeController> logger,IWatherForecast watherForecastService)
         {
             _weatherSvc = watherForecastService;
             _logger = logger;
+            //_userManager = userManager;
         }
 
         string Baseurl = "https://api-gateway20200429072611.azurewebsites.net";
@@ -68,9 +72,15 @@ namespace PocketMenuUI.Controllers
 
             //}
 
+        
+
+            //ViewBag.userId = _userManager.GetUserId(HttpContext.User);
+
             EmpInfo = await _weatherSvc.GetForecast();
 
             return View(EmpInfo);
+
+
         }
 
         public async Task<IActionResult> PrivacyAsync()

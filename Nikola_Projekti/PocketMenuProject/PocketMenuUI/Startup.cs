@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PocketMenuUI.Services;
 
+
 namespace PocketMenuUI
 {
     public class Startup
@@ -33,6 +34,11 @@ namespace PocketMenuUI
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddAuthentication().AddGoogle(googleOptions =>
+            {
+                googleOptions.ClientId = Configuration.GetValue<string>("web:client_id");
+                googleOptions.ClientSecret = Configuration.GetValue<string>("web:client_secret");
+            });
             services.AddControllersWithViews()
                 .Services
                 .AddHttpClientServices(Configuration);

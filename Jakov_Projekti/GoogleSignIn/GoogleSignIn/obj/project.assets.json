@@ -5429,11 +5429,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj",
+      "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj",
       "projectName": "GoogleSignIn",
-      "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj",
+      "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\GoogleSignIn.csproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\obj\\",
+      "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Jakov_Projekti\\GoogleSignIn\\GoogleSignIn\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
