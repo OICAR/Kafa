@@ -322,4 +322,3 @@ C:\Users\nikol\Desktop\OICAR\Kafa_Dev\Kafa\Nikola_Projekti\PocketMenuProject\Poc
 C:\Users\nikol\Desktop\OICAR\Kafa_Dev\Kafa\Nikola_Projekti\PocketMenuProject\PocketMenuUI\obj\Release\netcoreapp3.1\PocketMenuUI.Views.pdb
 C:\Users\nikol\Desktop\OICAR\Kafa_Dev\Kafa\Nikola_Projekti\PocketMenuProject\PocketMenuUI\obj\Release\netcoreapp3.1\PocketMenuUI.csproj.CopyComplete
 C:\Users\nikol\Desktop\OICAR\Kafa_Dev\Kafa\Nikola_Projekti\PocketMenuProject\PocketMenuUI\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
-C:\Users\nikol\Desktop\OICAR\Kafa_Dev\Kafa\Nikola_Projekti\PocketMenuProject\PocketMenuUI\bin\Release\netcoreapp3.1\client_secret_1081069269156-crk6ue2jmnnfql0r3mtdpbod7b5bodq0.apps.googleusercontent.com.json
