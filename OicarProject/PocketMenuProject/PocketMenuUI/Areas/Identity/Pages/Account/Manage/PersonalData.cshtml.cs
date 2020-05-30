@@ -20,6 +20,9 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
             _logger = logger;
         }
 
+
+        public string PhotoPath { get; set; }
+
         public async Task<IActionResult> OnGet()
         {
             var user = await _userManager.GetUserAsync(User);

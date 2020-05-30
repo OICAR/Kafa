@@ -37,6 +37,8 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
 
         public bool IsMachineRemembered { get; set; }
 
+        public string PhotoPath { get; set; }
+
         [TempData]
         public string StatusMessage { get; set; }
 

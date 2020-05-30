@@ -29,6 +29,8 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
         [TempData]
         public string StatusMessage { get; set; }
 
+        public string PhotoPath { get; set; }
+
         public class InputModel
         {
             [Required]

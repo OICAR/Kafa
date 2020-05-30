@@ -32,6 +32,8 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
 
         public string Username { get; set; }
 
+        public string PhotoPath { get; set; }
+
         public string Email { get; set; }
 
         public bool IsEmailConfirmed { get; set; }

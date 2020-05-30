@@ -160,8 +160,8 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
 
             await _signInManager.RefreshSignInAsync(
                     user);
-                StatusMessage =
-                    "Your profile has been updated";
+                //StatusMessage =
+                //    "Your profile has been updated";
                 return RedirectToPage();
             }
         private string GetUniqueName(string fileName)

@@ -26,6 +26,9 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
         [TempData]
         public string StatusMessage { get; set; }
 
+
+        public string PhotoPath { get; set; }
+
         public async Task<IActionResult> OnGet()
         {
             var user = await _userManager.GetUserAsync(User);

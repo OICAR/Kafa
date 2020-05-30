@@ -1,4 +1,7 @@
-﻿
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject UserManager<PocketMenuUI.Models.ApplicationUser> UserManager
+
 @{
     var photoPath = "~/img/" + (Model.PhotoPath ?? "pf.png");
 }
@@ -49,22 +52,12 @@
         </div>
         <!-- SideNav -->
         <ul class="sidenav" id="mobile-nav">
-            <li>
-                <div class="user-view">
-                    <div class="background">
-                        <img src="~/img/side_nav_bg.jpeg">
-                    </div>
-                    <a href="#user"><img class="circle" 
-                    src="@photoPath" asp-append-version="true"></a>
-                    <a href="#name"><span class="white-text name">John Doe</span></a>
-                    <a href="#email"><span class="white-text email">@User.Identity.Name</span></a>
-                </div>
-            </li>
-            <partial name="_ManageNav"/>
+            <partial name="_NavHeader" />
+            <partial name="_ManageNav" />
             <partial name="_LoginPartialManage" />
         </ul>
     </header>
-    <main style="min-height:70vh" class="container">
+    <main class="container">
         @RenderBody()
     </main>
 

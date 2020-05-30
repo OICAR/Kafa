@@ -1,5 +1,9 @@
-﻿@{
-   // var photoPath = "~/img/" + (Model.PhotoPath ?? "pf.png");
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject UserManager<PocketMenuUI.Models.ApplicationUser> UserManager
+
+@{
+    // var photoPath = "~/img/" + (Model.PhotoPath ?? "pf.png");
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +48,7 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
                             <li>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="">Privacy</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                             </li>
                             <li>
                                 <a class="nav-link text-dark" asp-area="" asp-controller="QRCode" asp-action="Index">QRCode</a>
@@ -62,23 +66,12 @@
         </div>
         <!-- SideNav -->
         <ul class="sidenav" id="mobile-nav">
-            <li>
-                <div class="user-view">
-                    <div class="background">
-                        <img src="~/img/side_nav_bg.jpeg">
-                    </div>
-                     <a href="#user"><img class="circle" 
-                                      src="~/img/pf.png" 
-                                      asp-append-version="true"></a>
-                    <a href="#name"><span class="white-text name">John Doe</span></a>
-                    <a href="#email"><span class="white-text email">@User.Identity.Name</span></a>
-                </div>
-            </li>
+            <partial name="_NavHeader"/>
             <li>
                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
             </li>
             <li>
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="">Privacy</a>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
             </li>
             <li>
                 <a class="nav-link text-dark" asp-area="" asp-controller="QRCode" asp-action="Index">QRCode</a>
@@ -90,7 +83,7 @@
         </ul>
     </header>
     <div>
-        <main style="min-height:70vh" role="main">
+        <main style="min-height:71vh" role="main">
             @RenderBody()
         </main>
     </div>
@@ -105,7 +98,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                &copy; 2020 - Visoko Uciliste Algebra <a asp-area="" asp-controller="Home" asp-action="">Privacy</a>
+                &copy; 2020 - Visoko Uciliste Algebra <a asp-area="" asp-controller="Privacy" asp-action="Privacy">Privacy</a>
             </div>
         </div>
     </footer>

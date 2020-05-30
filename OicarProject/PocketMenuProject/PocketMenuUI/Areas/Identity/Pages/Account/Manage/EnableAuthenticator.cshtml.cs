@@ -39,6 +39,8 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
         [TempData]
         public string[] RecoveryCodes { get; set; }
 
+        public string PhotoPath { get; set; }
+
         [TempData]
         public string StatusMessage { get; set; }
 

@@ -30,6 +30,8 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
         [BindProperty]
         public InputModel Input { get; set; }
 
+        public string PhotoPath { get; set; }
+
         [TempData]
         public string StatusMessage { get; set; }
 
