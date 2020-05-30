@@ -31,7 +31,7 @@ namespace PocketMenuUI.Services
             var client = new SendGridClient(apiKey);
             var msg = new SendGridMessage()
             {
-                From = new EmailAddress("pocketmenu@gmail.com",
+                From = new EmailAddress("kowerules@gmail.com",
                     Options.SendGridUser),
                 Subject = subject,
                 PlainTextContent = message,
@@ -41,7 +41,7 @@ namespace PocketMenuUI.Services
 
             // Disable click tracking.
             // See https://sendgrid.com/docs/User_Guide/Settings/tracking.html
-            msg.SetClickTracking(false, false);
+         //   msg.SetClickTracking(false, false);
 
             return client.SendEmailAsync(msg);
         }
