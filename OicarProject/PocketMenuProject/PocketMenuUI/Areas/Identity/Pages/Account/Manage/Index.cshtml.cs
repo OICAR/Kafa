@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -19,22 +22,30 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
         private readonly SignInManager<ApplicationUser>
             _signInManager;
 
+        private readonly IWebHostEnvironment _hostEnvironment;
+
         public IndexModel(
             UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager)
+            SignInManager<ApplicationUser> signInManager,
+             IWebHostEnvironment hostEnvironment)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _hostEnvironment = hostEnvironment;
         }
 
         public string Username { get; set; }
-       
+        public string PhotoPath { get; set; }
+
         [TempData] public string StatusMessage { get; set; }
 
         [BindProperty] public InputModel Input { get; set; }
 
         public class InputModel
-        {
+        {        
+
+            [Display(Name = "Photo")]
+            public IFormFile Photo { get; set; }
             [Display(Name = "First Name")]
             public string FirstName { get; set; }
             [Display(Name = "Last Name")]
@@ -46,6 +57,8 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
 
         private async Task LoadAsync(ApplicationUser user)
         {
+
+           
             var userName =
                 await _userManager.GetUserNameAsync(user);
             var phoneNumber =
@@ -53,14 +66,16 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
                     .GetPhoneNumberAsync(user);
             var firstName = user.FirstName;
             var lastName = user.LastName;
-           
             Username = userName;
-
+            PhotoPath = user.PhotoPath;
+            
             Input = new InputModel
             {
                 PhoneNumber = phoneNumber,
                 FirstName= firstName,
-                LastName = lastName
+                LastName = lastName,
+       
+               
             };
         }
 
@@ -78,7 +93,8 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync
+        ( )
         {
             var user =
                 await _userManager.GetUserAsync(User);
@@ -97,8 +113,27 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
             var phoneNumber =
                 await _userManager
                     .GetPhoneNumberAsync(user);
-            
+            var file = Input.Photo;
             //nacin na koji se podaci editaju
+            if (file !=null && file.Length>0)
+            {
+                var uploadPath =Path.Combine(
+                    _hostEnvironment.WebRootPath ,"img");
+                if (!Directory.Exists(uploadPath))
+                {
+                    Directory.CreateDirectory(uploadPath);
+                }
+
+                var uniqeFileName =
+                    Guid.NewGuid().ToString() + "_"+ file.FileName;
+
+                var filePath = Path.Combine
+                                   (uploadPath, uniqeFileName);
+                file.CopyTo(new FileStream(filePath,FileMode.Create));
+   
+                user.PhotoPath = uniqeFileName;
+            }
+          
             if (Input.FirstName != user.FirstName)
             {
                 user.FirstName = Input.FirstName;
@@ -129,5 +164,12 @@ namespace PocketMenuUI.Areas.Identity.Pages.Account.Manage
                     "Your profile has been updated";
                 return RedirectToPage();
             }
+        private string GetUniqueName(string fileName)
+        {
+            fileName = Path.GetFileName(fileName);
+            return Path.GetFileNameWithoutExtension(fileName)
+                   + "_" + Guid.NewGuid().ToString().Substring(0, 4)
+                   + Path.GetExtension(fileName);
+        }
         }
     }

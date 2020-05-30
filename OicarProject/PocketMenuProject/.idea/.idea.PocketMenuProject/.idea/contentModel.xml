@@ -111,6 +111,10 @@
             <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
             <e p="20200530124141_Extend_IdentityUser.cs" t="Include" />
             <e p="20200530124141_Extend_IdentityUser.Designer.cs" t="Include" />
+            <e p="20200530155257_Photo_Path.cs" t="Include" />
+            <e p="20200530155257_Photo_Path.Designer.cs" t="Include" />
+            <e p="20200530155656_IForm_File.cs" t="Include" />
+            <e p="20200530155656_IForm_File.Designer.cs" t="Include" />
             <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
           </e>
         </e>
@@ -185,6 +189,9 @@
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="img" t="Include">
+            <e p="41554747-5431-43b8-a43f-1d854aa72fd0_2054c7b3d5b8fb8fc19c7b42a6e3d98b.png" t="Include" />
+            <e p="657c5ec5-0cc0-49b1-8b89-3aaefb51c5fc.jpg" t="Include" />
+            <e p="d7b6804a-f6ee-4164-90a5-9d49360bc691_20668561_1621692937862853_87860989_n.jpg" t="Include" />
             <e p="disqus.png" t="Include" />
             <e p="land.png" t="Include" />
             <e p="map_mock.png" t="Include" />

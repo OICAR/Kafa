@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@{
+   // var photoPath = "~/img/" + (Model.PhotoPath ?? "pf.png");
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -41,7 +44,7 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
                             <li>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="">Privacy</a>
                             </li>
                             <li>
                                 <a class="nav-link text-dark" asp-area="" asp-controller="QRCode" asp-action="Index">QRCode</a>
@@ -64,7 +67,9 @@
                     <div class="background">
                         <img src="~/img/side_nav_bg.jpeg">
                     </div>
-                    <a href="#user"><img class="circle" src="~/img/pf.png"></a>
+                     <a href="#user"><img class="circle" 
+                                      src="~/img/pf.png" 
+                                      asp-append-version="true"></a>
                     <a href="#name"><span class="white-text name">John Doe</span></a>
                     <a href="#email"><span class="white-text email">@User.Identity.Name</span></a>
                 </div>
@@ -73,7 +78,7 @@
                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
             </li>
             <li>
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="">Privacy</a>
             </li>
             <li>
                 <a class="nav-link text-dark" asp-area="" asp-controller="QRCode" asp-action="Index">QRCode</a>
@@ -100,7 +105,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                &copy; 2020 - Visoko Uciliste Algebra <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                &copy; 2020 - Visoko Uciliste Algebra <a asp-area="" asp-controller="Home" asp-action="">Privacy</a>
             </div>
         </div>
     </footer>

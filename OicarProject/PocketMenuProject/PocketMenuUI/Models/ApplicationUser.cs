@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 
 namespace PocketMenuUI.Models
@@ -9,6 +11,11 @@ namespace PocketMenuUI.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         
+        public string PhotoPath { get; set; }
+       
+        [NotMapped]
+        public IFormFile Photo { get; set; }
+
     }
  
 }

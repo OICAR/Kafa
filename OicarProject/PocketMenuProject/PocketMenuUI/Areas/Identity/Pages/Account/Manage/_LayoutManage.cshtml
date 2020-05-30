@@ -1,4 +1,7 @@
 ﻿
+@{
+    var photoPath = "~/img/" + (Model.PhotoPath ?? "pf.png");
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,7 +54,8 @@
                     <div class="background">
                         <img src="~/img/side_nav_bg.jpeg">
                     </div>
-                    <a href="#user"><img class="circle" src="~/img/pf.png"></a>
+                    <a href="#user"><img class="circle" 
+                    src="@photoPath" asp-append-version="true"></a>
                     <a href="#name"><span class="white-text name">John Doe</span></a>
                     <a href="#email"><span class="white-text email">@User.Identity.Name</span></a>
                 </div>
