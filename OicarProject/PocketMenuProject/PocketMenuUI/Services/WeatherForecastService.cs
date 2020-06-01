@@ -19,7 +19,7 @@ namespace PocketMenuUI.Services
         private readonly HttpClient _apiClient;
         private readonly string _forecastUrl;
 
-        public WeatherForecastService(HttpClient httpClient,IOptions<AppSettings> settings )
+        public WeatherForecastService(HttpClient httpClient, IOptions<AppSettings> settings)
         {
             _apiClient = httpClient;
             _forecastUrl = "https://api-gateway20200429072611.azurewebsites.net";
@@ -34,7 +34,6 @@ namespace PocketMenuUI.Services
             var uri = API.Forecast.GetWeatherForecast(_forecastUrl);
 
 
-            _apiClient.DefaultRequestHeaders.Clear();
             //Define request data format  
             _apiClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
@@ -54,9 +53,9 @@ namespace PocketMenuUI.Services
 
 
 
-           // var responseString = await _apiClient.GetStringAsync(uri);
+            // var responseString = await _apiClient.GetStringAsync(uri);
 
-         //  var response = JsonConvert.DeserializeObject<List<WeatherForecastDTO>>(responseString);
+            //  var response = JsonConvert.DeserializeObject<List<WeatherForecastDTO>>(responseString);
 
             return response;
 

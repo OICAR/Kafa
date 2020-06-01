@@ -1208,3 +1208,4 @@ C:\Users\nikol\Desktop\OICAR\Kafa_Dev\KafaDev\Kafa\OicarProject\PocketMenuProjec
 C:\Users\nikol\Desktop\OICAR\Kafa_Dev\KafaDev\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\nikol\Desktop\OICAR\Kafa_Dev\KafaDev\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.Views.pdb
 C:\Users\nikol\Desktop\OICAR\Kafa_Dev\KafaDev\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.csproj.CopyComplete
+C:\Users\nikol\Desktop\OICAR\Kafa_Dev\KafaDev\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.csprojAssemblyReference.cache
