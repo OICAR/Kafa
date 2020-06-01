@@ -21,7 +21,7 @@ namespace PocketMenuUI.Services
         public Task SendEmailAsync(string email,
             string subject, string message)
         {
-            return Execute(Options.SendGridKey, subject,
+            return Execute(System.Environment.GetEnvironmentVariable("SENDGRID_APIKEY"), subject,
                 message, email);
         }
 
