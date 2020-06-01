@@ -1,35 +1,57 @@
-﻿
-@{
-    ViewData["Title"] = "Home Page";
+﻿@{
+    ViewBag.Title = "Index";
 }
 
-<div class="row container center">
-    <div class="col-md-4">
-        <h2>Welcome to Contoso University</h2>
-        <p>
-            Contoso University is a sample application that
-            demonstrates how to use Entity Framework Core in an
-            ASP.NET Core MVC web application.
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h2>Build it from scratch</h2>
-        <p>You can build the application by following the steps in a series of tutorials.</p>
-        <p><a class="btn btn-default waves-effect waves-dark blue" href="https://docs.asp.net/en/latest/data/ef-mvc/intro.html">See the tutorial &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Download it</h2>
-        <p>You can download the completed project from GitHub.</p>
-        <p><a class="btn btn-default waves-effect waves-dark blue" href="https://github.com/dotnet/AspNetCore.Docs/tree/master/aspnetcore/data/ef-mvc/intro/samples/cu-final">See project source code &raquo;</a></p>
-    </div>
-    <p>
-    <p>
-    <p>Single Location</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2339.6635736120033!2d15.947234024412266!3d45.784324214688795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d69ea3faf7d3%3A0xe60e567cfe6c6a92!2sKlub%20Roko!5e0!3m2!1shr!2shr!4v1586257780137!5m2!1shr!2shr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </p>
-    <p>
-    <p>Multiple Locations</p>
-    <iframe src="https://www.google.com/maps/d/embed?mid=1hGrp2NTrlmrKEm4LIdTV977YeaaTCA2q" width="640" height="480"></iframe>
+<div id="map" style="width: 400px; height: 400px;"></div>
+<a asp-action="Create" asp-controller="GoogleMaps">Create</a>
+<script>
+        var map;
+        function initMap() {
+         var myLatLng = {lat: 43.736938, lng: 15.898590};
 
-    </p>
-</div>
+         var map = new google.maps.Map(document.getElementById('map'), {
+           zoom: 4,
+           center: myLatLng
+         });
+        $.get("@Url.Action("GetAllLocation", "GoogleMaps")",
+        function(data,status) {
+          var marker = [];
+           var contentString =[];
+            var infowindow=[];
+          for(var i=0;i<data.length;i++)
+            {
+                    marker[i] = new google.maps.Marker({
+                    position: {lat:data[i].lat, lng: 
+                    data[i].long}, map: map});
+                               contentString[i] = '<div ' +
+                                'id="content">'+
+                              '<div id="siteNotice">'+
+                              '</div>'+
+                              '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+                              '<div id="bodyContent">'+
+                              '<p><b>Uluru</b>, also ' +
+                               'referred to as <b>Ayers ' +
+                                'Rock</b>Address:</p>'+
+                                data[i].address+ 
+                                '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+                              'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+                              '(last visited June 22, 2009).</p>'+
+                              '</div>'+
+                              '</div>';
+                                infowindow[i] = new google
+                                .maps.InfoWindow({
+                                  content: contentString[i]
+                                });
+              var mdl = marker[i];
+              google.maps.event.addListener(marker[i], 'click', (function (mdl, i) {
+                  return function () {
+                      infowindow[i].open(map, marker[i]);
+                  }
+              })(marker[i], i));
+            }
+
+        });
+
+        }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQZjR53_GfS-tlqD5xV50sf8rKYB2C4S8&callback=initMap" async defer></script>

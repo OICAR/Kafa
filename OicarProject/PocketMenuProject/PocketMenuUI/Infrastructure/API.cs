@@ -26,5 +26,17 @@ namespace PocketMenuUI.Infrastructure
 
         }
 
+
+        public static class GoogleMaps
+        {
+
+
+            public static string GetMaps(string baseUri) => $"{baseUri}/api/maps";
+
+
+        }
+
+
+
     }
 }

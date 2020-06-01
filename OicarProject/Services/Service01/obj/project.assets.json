@@ -129,11 +129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Nikola_Projekti\\Services\\Service01\\Service01.csproj",
+      "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\KafaDev\\Kafa\\OicarProject\\Services\\Service01\\Service01.csproj",
       "projectName": "Service01",
-      "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Nikola_Projekti\\Services\\Service01\\Service01.csproj",
+      "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\KafaDev\\Kafa\\OicarProject\\Services\\Service01\\Service01.csproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\Kafa\\Nikola_Projekti\\Services\\Service01\\obj\\",
+      "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\KafaDev\\Kafa\\OicarProject\\Services\\Service01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

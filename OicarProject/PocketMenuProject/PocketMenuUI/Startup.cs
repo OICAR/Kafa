@@ -93,6 +93,7 @@ namespace PocketMenuUI
             services.AddHttpClient<IWatherForecast, WeatherForecastService>()
                    .SetHandlerLifetime(TimeSpan.FromMinutes(5)); //Sample. Default lifetime is 2 minutes
             services.AddHttpClient<IQRCodeGenerator,QRService>();
+            services.AddHttpClient<IGoogleMap, GoogleMapsService>();
             return services;
 
 
