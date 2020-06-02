@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iSNmamwWMfUqCL490Swd/4KMHHrgOuAsp+3U1g4oB7M75zfiwxeE1DcU1dPEMzPrh+oJrsg1WNA/0EvhhP6+cQ==",
+  "dgSpecHash": "carH8A9JclaoViaLUt7hglEZr4d9m7iH44yh1uC8xY2sezNTaN0/WSdaqfKPz6CIradtSZq0EN0mZ1kzhNfAIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Implementation\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
+  "projectFilePath": "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\yeet\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jakov\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Jakov\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.4\\microsoft.aspnetcore.authentication.google.3.1.4.nupkg.sha512",
