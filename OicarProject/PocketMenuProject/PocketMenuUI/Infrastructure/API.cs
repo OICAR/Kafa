@@ -41,6 +41,7 @@ namespace PocketMenuUI.Infrastructure
 
 
             public static string GetExcel(string baseUri) => $"{baseUri}/api/excel";
+            public static string PostExcel(string baseUri) => $"{baseUri}/api/document";
 
 
         }

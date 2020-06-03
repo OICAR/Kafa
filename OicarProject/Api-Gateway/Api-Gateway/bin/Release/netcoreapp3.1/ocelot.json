@@ -35,6 +35,18 @@
       ],
       "UpstreamPathTemplate": "/api/maps",
       "UpstreamHttpMethod": [ "Get", "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/home",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "excelservice20200603054038.azurewebsites.net",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/document",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
     }
   ],
   "GlobalConfiguration": {

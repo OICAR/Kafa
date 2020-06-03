@@ -4,10 +4,12 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using PocketMenuUI.Infrastructure;
 using PocketMenuUI.Services;
+using PocketMenuUI.Utils.ExcelUtlities;
 using PocketMenuUI.ViewModel;
 
 namespace PocketMenuUI.Controllers
@@ -22,21 +24,39 @@ namespace PocketMenuUI.Controllers
             _ExcelSvc = excelSvc;
         }
 
-        public async Task<ActionResult> Import()
-        {
 
-            _ExcelSvc.Get();
-          
-                return View();
+        public IActionResult Index()
+        {
+            return View();
         }
 
 
-        public ActionResult Export(CatererViewModel caterer)
+
+        public async Task<ActionResult> Import()
+        {
+            string json = null;
+
+            CatererViewModel caterer = new CatererViewModel();
+
+
+            IFormFile file = Request.Form.Files[0];
+            caterer.Document = file;
+            //string tableData=  ExcelUtility.DisplayTable(file);
+
+            string tableData = await _ExcelSvc.PostExcel(caterer);
+
+            //_ExcelSvc.Get();
+
+            return this.Content(tableData);
+        }
+
+
+        public async Task<ActionResult> Export(CatererViewModel caterer)
         {
 
+           string responseContent= await _ExcelSvc.PostExcel(caterer);
 
-
-            return View();
+            return this.Content(responseContent);
         }
 
     }

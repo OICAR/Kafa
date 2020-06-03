@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {}
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
+        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
         "projectName": "PocketMenuUI",
-        "projectPath": "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
-        "packagesPath": "C:\\Users\\Jakov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jakov\\Documents\\Kafa-Newest\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\obj\\",
+        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\PocketMenuUI.csproj",
+        "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\PocketMenuProject\\PocketMenuUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jakov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -38,6 +42,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "DotNetCore.NPOI": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.7, )"
@@ -93,12 +101,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -107,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

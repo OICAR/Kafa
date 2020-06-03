@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\KafaDev\\Kafa\\OicarProject\\Services\\GoogleMapsService\\GoogleMapsService.csproj": {}
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\Services\\GoogleMapsService\\GoogleMapsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\KafaDev\\Kafa\\OicarProject\\Services\\GoogleMapsService\\GoogleMapsService.csproj": {
+    "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\Services\\GoogleMapsService\\GoogleMapsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\KafaDev\\Kafa\\OicarProject\\Services\\GoogleMapsService\\GoogleMapsService.csproj",
+        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\Services\\GoogleMapsService\\GoogleMapsService.csproj",
         "projectName": "GoogleMapsService",
-        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\KafaDev\\Kafa\\OicarProject\\Services\\GoogleMapsService\\GoogleMapsService.csproj",
+        "projectPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\Services\\GoogleMapsService\\GoogleMapsService.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Kafa_Dev\\KafaDev\\Kafa\\OicarProject\\Services\\GoogleMapsService\\obj\\",
+        "outputPath": "C:\\Users\\nikol\\Desktop\\OICAR\\Oicar_Test\\Backup\\Kafa\\OicarProject\\Services\\GoogleMapsService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
