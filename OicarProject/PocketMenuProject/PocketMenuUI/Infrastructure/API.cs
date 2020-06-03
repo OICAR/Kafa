@@ -36,7 +36,14 @@ namespace PocketMenuUI.Infrastructure
 
         }
 
+        public static class ExcelAPI
+        {
 
+
+            public static string GetExcel(string baseUri) => $"{baseUri}/api/excel";
+
+
+        }
 
     }
 }

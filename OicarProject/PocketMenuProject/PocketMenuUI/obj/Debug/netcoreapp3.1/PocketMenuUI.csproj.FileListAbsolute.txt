@@ -1401,3 +1401,14 @@ C:\Users\Jakov\Documents\Kafa-Newest\yeet\OicarProject\PocketMenuProject\PocketM
 C:\Users\Jakov\Documents\Kafa-Newest\yeet\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.dll
 C:\Users\Jakov\Documents\Kafa-Newest\yeet\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.pdb
 C:\Users\Jakov\Documents\Kafa-Newest\yeet\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.genruntimeconfig.cache
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.csprojAssemblyReference.cache
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\staticwebassets\PocketMenuUI.StaticWebAssets.Manifest.cache
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\staticwebassets\PocketMenuUI.StaticWebAssets.xml
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.RazorAssemblyInfo.cache
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.RazorAssemblyInfo.cs
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.AssemblyInfoInputs.cache
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.AssemblyInfo.cs
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.dll
+C:\Users\nikol\Desktop\OICAR\Oicar_Test\Backup\Kafa\OicarProject\PocketMenuProject\PocketMenuUI\obj\Debug\netcoreapp3.1\PocketMenuUI.pdb

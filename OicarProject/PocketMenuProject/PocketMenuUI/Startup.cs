@@ -94,6 +94,7 @@ namespace PocketMenuUI
                    .SetHandlerLifetime(TimeSpan.FromMinutes(5)); //Sample. Default lifetime is 2 minutes
             services.AddHttpClient<IQRCodeGenerator,QRService>();
             services.AddHttpClient<IGoogleMap, GoogleMapsService>();
+            services.AddHttpClient<IExcel, ExcelService>();
             return services;
 
 
